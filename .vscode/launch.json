@@ -5,7 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name":"Launch",
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "LeetCode_7c4a061e"
+        },
+        {
+            "type": "java",
+            "name": "颜色分类>",
+            "request": "launch",
+            "mainClass": "<unnamed_class$75.颜色分类>",
+            "projectName": "LeetCode_7c4a061e"
+        },
+        {
+            "name": "Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\out.exe"

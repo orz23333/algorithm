@@ -62,6 +62,10 @@ public:
         return combinations;
     }
 
+    /**
+     * 自写，按照0到num.size()的长度，一直生成相应长度的子集。
+     * 子集由长度从0,1,2...num.size()长度的排列组合组成。
+    */
     vector<vector<int>> method1(vector<int>& nums)
     {
         vector<vector<int>> combinations;
