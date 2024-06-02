@@ -13,5 +13,6 @@
         "ostream": "cpp",
         "cstdint": "cpp",
         "numeric": "cpp"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }
